@@ -6,6 +6,26 @@
     padding: 0;
 }
 
+#navbar {
+    
+    display: flex;
+    background-color: #e7f6ff;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: Work Sans;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+.navbar-text{
+    display: flex;
+    gap: 50px;
+    font-family: Work Sans;
+    text-decoration: dashed;
+}
+
 #hero {
     height: 615px;
     background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../images/hero-bg.png);
@@ -14,6 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 
 }
@@ -137,7 +158,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    border: 2px solid #f0fdde;
+    border: 2px solid #d7faa6;
     padding: 20px;
     box-shadow: 5px 10px #888888;
 
@@ -167,4 +188,202 @@
 
     background: rgba(82, 195, 3, 0.15);
 
+}
+
+
+#about-section {
+
+    display: flex;
+    border-radius: 25px;
+    border: 2px solid #c2e096;
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+}
+
+.about-image img {
+    width: 100%;
+
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Work Sans;
+    text-align: center;
+    padding-left: 154px;
+    padding-right: 154px;
+    margin-top: 90px;
+
+}
+
+.about-title {
+
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+
+
+}
+
+.about-subtitle {
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 70px;
+    opacity: 0.6;
+
+}
+
+.follow-us {
+    opacity: 0.7;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.about-icon {
+    font-size: 40px;
+    margin-top: 62px;
+}
+
+.about-icon .fa-facebook {
+    color: rgb(111, 144, 235);
+}
+
+.about-icon .fa-x-twitter {
+    color: black
+}
+
+.about-icon .fa-instagram {
+    color: rgb(253, 65, 65);
+
+}
+
+.about-icon .fa-pinterest {
+    color: rgb(253, 65, 65);
+}
+
+/* social section style */
+
+.social-container {
+    background-image: url(../images/social-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Work Sans;
+    text-align: center;
+    padding-left: 154px;
+    padding-right: 154px;
+    margin-top: 90px;
+
+}
+
+
+.social-title {
+    color: white;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+    padding-top: 40px;
+
+
+}
+
+.social-subtitle {
+    color: white;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 70px;
+
+
+}
+
+.social-follow-us {
+    color: white;
+
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.social-about-icon {
+    font-size: 40px;
+    margin-top: 62px;
+    margin-bottom: 20px;
+}
+
+.social-about-icon .fa-facebook {
+    color: rgb(111, 144, 235);
+
+}
+
+.social-about-icon .fa-facebook:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.social-about-icon .fa-x-twitter {
+    color: rgb(8, 8, 8);
+}
+
+.social-about-icon .fa-x-twitter:hover {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.social-about-icon .fa-instagram {
+    color: rgb(253, 65, 65);
+}
+
+.social-about-icon .fa-instagram:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.social-about-icon .fa-pinterest {
+    color: rgb(253, 65, 65);
+
+}
+
+.social-about-icon .fa-pinterest:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
 }
