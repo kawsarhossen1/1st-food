@@ -121,7 +121,7 @@
 }
 
 .card-container {
-    margin-top: 30px;
+    margin: 30px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -136,10 +136,19 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
+    border: 2px solid #f0fdde;
+    padding: 20px;
     box-shadow: 5px 10px #888888;
 
+
 }
-.card p{
+
+.card:hover {
+    background-color: #ddfcb3;
+}
+
+.card p {
     text-align: center;
 }
 
@@ -159,4 +168,3 @@
     background: rgba(82, 195, 3, 0.15);
 
 }
-
